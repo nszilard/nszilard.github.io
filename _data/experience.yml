@@ -4,9 +4,13 @@
   job_title: DevSecOps Engineer
   dates: 2018 - Present
   quote: >
-    <mark>AWS</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark>
-    <mark>Golang</mark> <mark>Shell</mark> <mark>Linux</mark> <mark>Mac</mark>
+    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark> <mark>CodeBuild</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark> <mark>Kanban</mark> <mark>Scrum</mark>
+    <mark>Golang</mark> <mark>Shell</mark>
+    <mark>Linux</mark> <mark>Mac</mark>
   description: |
+    - Migrated from a self hosted Verdaccio registry to GitHub Packages
+    - Migrated Git repositories from BitBucket to GitHub
+    - Automated Terraform projects using [Atlantis](https://runatlantis.io)
     - Introduced _[CircleCI](https://circleci.com)_ and migrated all CI pipelines over from Jenkins
     - Researched various CI tools in pursuit of a better user experience
     - Helped to automate patch management for AMIs
@@ -29,7 +33,9 @@
   job_title: Junior DevOps Engineer
   dates: 2017 - 2018
   quote: >
-   <mark>AWS</mark> <mark>Terraform</mark> <mark>Jenkins</mark> <mark>CI/CD</mark> <mark>Docker</mark> <mark>NodeJS</mark> <mark>Python</mark> <mark>Linux</mark> <mark>Mac</mark>
+   <mark>AWS</mark> <mark>Git</mark> <mark>Terraform</mark> <mark>Jenkins</mark> <mark>CI/CD</mark> <mark>Docker</mark> <mark>Atlassian</mark> <mark>Kanban</mark>
+   <mark>NodeJS</mark> <mark>Python</mark>
+   <mark>Linux</mark> <mark>Mac</mark>
   description: |
     - Automated continuous delivery for Lambdas 
     - Automated continuous delivery for auto-scaling groups using AMIs
@@ -46,7 +52,7 @@
   job_title: Student Researcher
   dates: 2015 - 2016
   quote: >
-   <mark>SDN</mark> <mark>NFV</mark> <mark>Click</mark> <mark>Docker</mark> <mark>Linux</mark> <mark>Docker</mark>
+   <mark>SDN</mark> <mark>NFV</mark> <mark>Click</mark> <mark>Docker</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>R&D</mark>
   description: |
     - Was accepted as a member of the HSNLab team
     - Completed Research & Development work on Network Coding in SDN networks

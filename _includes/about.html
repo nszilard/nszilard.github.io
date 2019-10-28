@@ -1,0 +1,33 @@
+<div class="container intro-container">
+	<h3>{{ site.data.about.title | default: "About Me" }}</h3>
+	<div class="row clearfix">
+		{%- if site.data.about.image -%}
+		<div class="col-xs-12 col-sm-4 col-md-3 no-print">
+			<span class="profile-img" style="background-image: url({{ site.data.about.image | relative_url }})"></span>
+		</div>
+		{%- endif -%}
+		<div class="{{ 'col-xs-12 ' }}{%- if site.data.about.image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+			{{ site.data.about.content | strip | markdownify }}
+		</div>
+	</div>
+</div>
+
+<div class="container experience-container">
+	<h3>{{ site.data.certification.title | default: "Certification" }}</h3>
+	{% for certification in site.data.certification %}
+		<div class="row clearfix layout layout-left">
+			<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+				<h4><b>{{ certification.date }}</b></h4>
+				<a href="{{ certification.link }}" target="_blank" style="color: inherit; font-style: italic;font-weight: 300; font-size: 1.5em; padding-bottom: 10px !important;">View certificate</a>
+			</div>
+			<div class="col-xs-11 col-sm-8 col-md-9 col-print-12" style="text-align: center;">
+				<h4><b>{{ certification.name }}</b></h4>
+				{%- if certification.ID -%}
+					<span style="color: inherit; font-style: italic;font-weight: 300; font-size: 1.5em;">
+						<b>Certification ID:</b> {{ certification.ID }}
+					</span>
+				{%- endif -%}
+			</div>
+		</div>
+	{% endfor %}
+</div>

@@ -1,4 +1,4 @@
-- layout: right
+- layout: left
   name: University of Portsmouth
   dates: 2016 - 2017
   qualification: M.Sc.Computer Network Administration and Management
@@ -13,7 +13,7 @@
       - Network Design and Management
       - Communications Security
 
-- layout: right
+- layout: left
   name: Budapest University of Technology
   dates: 2012 - 2016
   qualification: B.Sc. Computer Science Engineering
