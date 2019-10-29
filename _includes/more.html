@@ -1,0 +1,49 @@
+<div class="container my-container">
+	<h3>{{ site.awards_title | default: "Awards" }}</h3>
+	<div class="row clearfix">
+		{% for awards in site.data.awards %}
+		<div class="col-xs-12 col-sm-6 col-md-6 col-print-6 details">
+			<h2><b>{{ awards.name }}</b></h2>
+			<h4>{{ awards.date }}</h4>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<div class="container my-container">
+	<h3>{{ site.language_title | default: "Languages" }}</h3>
+	<div class="row clearfix">
+		{% for language in site.data.language %}
+		<div class="col-xs-12 col-sm-4 col-md-4 col-print-4 details">
+			<h2><b>{{ language.name }}</b></h2>
+			<h4>{{ language.qualification }}</h4>
+			{%- if language.description -%}
+			{{ language.description | strip | markdownify }}
+			{%- endif -%}
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<div class="container my-container">
+	<h3>{{ site.interests_title | default: "Hobbies and Interests" }}</h3>
+	<div class="row clearfix">
+		{% for interest in site.data.interest %}
+		<div class="col-xs-12 col-sm-6 col-md-6 col-print-6 details">
+			<h2><b>{{ interest.type }}</b></h2>
+			{{ interest.content | strip | markdownify }}
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{%- if site.data.more.content -%}
+<div class="container more-container">
+	<h3>{{ site.data.more.title | default: "A Little More About Me" }}</h3>
+	<div class="row clearfix">
+		<div class="col-md-12">
+			{{ site.data.more.content | strip | markdownify }}
+		</div>
+	</div>
+</div>
+{%- endif -%}

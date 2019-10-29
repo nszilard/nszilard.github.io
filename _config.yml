@@ -1,66 +1,43 @@
-## Site
+#-----------------------------------------
+# Site
+#-----------------------------------------
 repository: nszilard/nszilard.github.io
-favicon: images/favicon.ico
+favicon:    images/favicon.ico
 
-## Personal info
-name: Szilárd Attila Nagy
+#-----------------------------------------
+# Personal info
+#-----------------------------------------
+name:  Szilárd Attila Nagy
 title: DevSecOps Engineer
 
-## Social links
-github_username:  nszilard
-linkedin_username: nagyszilard94
+#-----------------------------------------
+# Social links
+#-----------------------------------------
+github_username:    nszilard
+linkedin_username:  nagyszilard94
 instagram_username: nszilard
-facebook_username: szilard.nagy.547
-twitter_username: TheSzilardNagy
+facebook_username:  szilard.nagy.547
+twitter_username:   TheSzilardNagy
 
-## About Section
-about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: |
-  Hi, my name's Szilard and I'm a DevSecOps engineer.
-
-  As a Computer science engineer, I have acquired broad knowledge in computer networks as well as in computer programming languages. I have had the opportunity to work with the Networking research team at Budapest University of Technology where I learned how to work both alone and in a team to overcome challenges no-one has faced before.  
-  During my master studies I was able to expand my expertise in service delivery in traditional, as well as in cloud networks.  
-  By starting my career in a startup company in London, I was able to take full ownership and responsibility for all my projects, which allowed me to gain experience in an exponential manner.
-
-## Projects Section
-projects_title: Projects
-
-## Experience Section
+#-----------------------------------------
+# Sections
+#-----------------------------------------
+awards_title:     Awards
 experience_title: Work Experience
+more_content:     Enabled
 
-## Education Section
-education_title: Education
-
-## More Section
-more_title: More about me
-more_content: |
-  Awards:
-  - __2016:__ IEEE Communication Society Special Award
-  - __2015:__ Ericsson Hungary 1st Prize
-
-  I also possess:
-  - __Driving license:__ Category B
-  - __English language exams:__ IELTS (7.5) and ECL (B2)
-
-  Alongside my interests in networks some of my other interests and hobbies are:
-  - Gym / Powerlifting / Strongman
-  - Squash (Ex-professional player)
-  - Formula 1
-  - Muay Thai
-  - Travelling
-  - Playing on the guitar
-  - Listening to music
-  - Watching movies
-  - Gaming
-  - Meetup events
-  - Driving
-
+#-----------------------------------------
 # Footer
+#-----------------------------------------
 footer_show_references: false
 
+#-----------------------------------------
 # Build settings
+#-----------------------------------------
 remote_theme: sproogen/resume-theme
 
+#-----------------------------------------
+# Plugins
+#-----------------------------------------
 plugins:
  - jekyll-seo-tag
