@@ -4,7 +4,7 @@
   job_title: DevSecOps Engineer
   dates: 2018 - Present
   quote: >
-    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark>
+    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark> <mark>Kanban</mark> <mark>Scrum</mark>
     <mark>Golang</mark> <mark>Shell</mark>
     <mark>Linux</mark> <mark>Mac</mark>
   description: |
@@ -31,7 +31,7 @@
   job_title: Junior DevOps Engineer
   dates: 2017 - 2018
   quote: >
-   <mark>AWS</mark> <mark>Git</mark> <mark>Terraform</mark> <mark>Jenkins</mark> <mark>CI/CD</mark> <mark>Docker</mark> <mark>Atlassian</mark>
+   <mark>AWS</mark> <mark>Git</mark> <mark>Terraform</mark> <mark>Jenkins</mark> <mark>CI/CD</mark> <mark>Docker</mark> <mark>Atlassian</mark> <mark>Kanban</mark>
    <mark>NodeJS</mark> <mark>Python</mark>
    <mark>Linux</mark> <mark>Mac</mark>
   description: |
@@ -50,7 +50,7 @@
   job_title: Student Researcher
   dates: 2015 - 2016
   quote: >
-   <mark>SDN</mark> <mark>NFV</mark> <mark>Click</mark> <mark>Docker</mark> <mark>Linux</mark> <mark>Docker</mark>
+   <mark>SDN</mark> <mark>NFV</mark> <mark>Click</mark> <mark>Docker</mark> <mark>Linux</mark> <mark>Docker</mark> <mark>R&D</mark>
   description: |
     - Was accepted as a member of the HSNLab team
     - Completed Research & Development work on Network Coding in SDN networks
