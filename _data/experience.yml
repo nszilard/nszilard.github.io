@@ -4,12 +4,12 @@
   job_title: DevSecOps Engineer
   dates: 2018 - Present
   quote: >
-    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark> <mark>Kanban</mark> <mark>Scrum</mark>
+    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark> <mark>CodeBuild</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark> <mark>Kanban</mark> <mark>Scrum</mark>
     <mark>Golang</mark> <mark>Shell</mark>
     <mark>Linux</mark> <mark>Mac</mark>
   description: |
-    - Migrated from using Verdaccio as a private NPM registry to GitHub Packages
-    - Migrated from BitBucket to GitHub
+    - Migrated from a self hosted Verdaccio registry to GitHub Packages
+    - Migrated Git repositories from BitBucket to GitHub
     - Automated Terraform projects using [Atlantis](https://runatlantis.io)
     - Introduced _[CircleCI](https://circleci.com)_ and migrated all CI pipelines over from Jenkins
     - Researched various CI tools in pursuit of a better user experience
