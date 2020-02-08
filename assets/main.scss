@@ -4,6 +4,9 @@
 
 @import 'modern-resume-theme';
 
+// -------------------------------------
+// Custom container settings
+// -------------------------------------
 .my-container {
 	text-align: center;
 }
@@ -16,4 +19,44 @@
 	font-size: 20px;
 	border: none;
 	padding-bottom: 30px;
+}
+
+// -------------------------------------
+// Theme switcher
+// -------------------------------------
+.theme-switcher {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.inner-switch {
+	cursor: pointer;
+	border: 1px solid #555;
+	border-radius: 1.25rem;
+	display: inline-block;
+	width: 3.125rem;
+	text-align: center;
+	font-size: 1rem;
+	padding: 0.1875rem;
+	margin-left: 0.3125rem;
+}
+
+// -------------------------------------
+// Mark overwrite
+// -------------------------------------
+mark {
+	font-weight: bold;
+}
+
+// -------------------------------------
+// Dark mode overwrites
+// -------------------------------------
+$BACKGROUND: #1d1e22 !default;
+
+.dark * {
+  background-color: transparent;
+}
+
+.dark {
+	background: $BACKGROUND;
 }

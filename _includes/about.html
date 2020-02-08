@@ -3,7 +3,7 @@
 	<div class="row clearfix">
 		{%- if site.data.about.image -%}
 		<div class="col-xs-12 col-sm-4 col-md-3 no-print">
-			<span class="profile-img" style="background-image: url({{ site.data.about.image | relative_url }})" />
+			<span class="profile-img" style="background-image: url({{ site.data.about.image | relative_url }})"></span>
 		</div>
 		{%- endif -%}
 		<div class="{{ 'col-xs-12 ' }}{%- if site.data.about.image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
@@ -26,7 +26,6 @@
 					<span style="color: inherit; font-style: italic;font-weight: 300; font-size: 1.5em;">
 						<b>Certification ID:</b> {{ certification.ID }}
 					</span>
-					<!-- <h5><b>{{ certification.ID }}</b></h5> -->
 				{%- endif -%}
 			</div>
 		</div>

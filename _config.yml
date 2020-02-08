@@ -3,6 +3,7 @@
 #-----------------------------------------
 repository: nszilard/nszilard.github.io
 favicon:    images/favicon.ico
+locale:     en
 
 #-----------------------------------------
 # Personal info
@@ -35,9 +36,22 @@ footer_show_references: false
 # Build settings
 #-----------------------------------------
 remote_theme: sproogen/resume-theme
+darkmode:     false
+sass:
+  sass_dir: _sass
+  style: compressed
+
 
 #-----------------------------------------
 # Plugins
 #-----------------------------------------
 plugins:
  - jekyll-seo-tag
+
+#-----------------------------------------
+# Excludes
+#-----------------------------------------
+exclude : [
+  "Gemfile",
+  "Gemfile.lock"
+]
