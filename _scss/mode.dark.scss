@@ -15,7 +15,7 @@
 
 	h1 {
 		font-family: inherit;
-		color: $DARK_Header;
+		color: $DARK_Main;
 	}
 
 	h2 {
@@ -29,7 +29,7 @@
 	}
 
 	h4, h5, h6 {
-		color: $DARK_SubSection;
+		color: $DARK_Secondary;
 	}
 
 	mark {
@@ -47,20 +47,20 @@
 			}
 
 			.lastNames {
-				color: $DARK_HeaderName;
+				color: $DARK_Main;
 			}
 		}
 
 		h2 {
 			font-family: inherit;
-			color: $DARK_HeaderTitle;
+			color: $DARK_Text;
 		}
 	}
 
 	.certification-container {
 		.details {
 			h2 {
-				color: $DARK_SubSection;
+				color: $DARK_Secondary;
 			}
 		}
 	}
@@ -68,7 +68,7 @@
 	.award-container {
 		.details {
 			h2 {
-				color: $DARK_SubSection;
+				color: $DARK_Secondary;
 			}
 
 			h4 {
@@ -80,7 +80,7 @@
 	.language-container {
 		.details {
 			h2 {
-				color: $DARK_SubSection;
+				color: $DARK_Secondary;
 			}
 
 			h4 {
@@ -91,7 +91,7 @@
 
 	.interest-container {
 		h2 {
-			color: $DARK_SubSection;
+			color: $DARK_Secondary;
 		}
 
 		h4 {
@@ -108,7 +108,7 @@
 			}
 
 			.lastNames {
-				color: $DARK_Header;
+				color: $DARK_Main;
 			}
 		}
 	}
