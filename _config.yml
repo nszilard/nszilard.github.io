@@ -8,8 +8,9 @@ locale:     en
 #-----------------------------------------
 # Personal info
 #-----------------------------------------
-name:  Szilárd Attila Nagy
-title: DevSecOps Engineer
+firstName: Szilárd
+lastNames: Attila Nagy
+title:     DevSecOps Engineer
 
 #-----------------------------------------
 # Social links
@@ -36,11 +37,9 @@ footer_show_references: false
 # Build settings
 #-----------------------------------------
 remote_theme: sproogen/resume-theme
-darkmode:     false
 sass:
-  sass_dir: _sass
-  style: compressed
-
+  sass_dir: _scss
+  style:    compressed
 
 #-----------------------------------------
 # Plugins
