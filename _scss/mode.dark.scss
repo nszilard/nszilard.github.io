@@ -1,0 +1,133 @@
+.dark * {
+	background-color: transparent;
+}
+
+.dark {
+	background: $DARK_Background;
+
+	body {
+		color: $DARK_Text;
+	}
+
+	a {
+		color: $DARK_Link;
+	}
+
+	h1 {
+		color: $DARK_Main;
+	}
+
+	h2 {
+		color: $DARK_Accent;
+	}
+
+	h3 {
+		color: $DARK_Accent;
+	}
+
+	h4, h5, h6 {
+		color: $DARK_Secondary;
+	}
+
+	mark {
+		color: $DARK_Mark;
+		background-color: $DARK_MarkBackground;
+	}
+
+	.header-left {
+		h1 {
+			.firstName {
+				color: $DARK_Accent;
+			}
+
+			.lastNames {
+				color: $DARK_Main;
+			}
+		}
+
+		h2 {
+			color: $DARK_Text;
+		}
+	}
+
+	.certification-container {
+		.details {
+			h2 {
+				color: $DARK_Secondary;
+			}
+		}
+	}
+
+	.award-container {
+		.details {
+			h2 {
+				color: $DARK_Secondary;
+			}
+
+			h4 {
+				color: $DARK_Text;
+			}
+		}
+	}
+
+	.language-container {
+		.details {
+			h2 {
+				color: $DARK_Secondary;
+			}
+
+			h4 {
+				color: $DARK_Text;
+			}
+		}
+	}
+
+	.interest-container {
+		h2 {
+			color: $DARK_Secondary;
+		}
+
+		h4 {
+			color: $DARK_Text;
+		}
+	}
+
+	.footer-container {
+		color: $DARK_Text;
+
+		p {
+			.firstName {
+				color: $DARK_Accent;
+			}
+
+			.lastNames {
+				color: $DARK_Main;
+			}
+		}
+	}
+
+	.icons {
+		i {
+			background: none;
+			color: $DARK_Icon;
+		}
+
+		a:hover i {
+			color: $DARK_Accent;
+		}
+	}
+
+	.button--sacnite {
+		&::before {
+			box-shadow: inset 0 0 0 35px $DARK_Button;
+		}
+
+		&:hover {
+			color: $DARK_Button;
+		}
+
+		&:hover::before {
+			box-shadow: inset 0 0 0 2px $DARK_Button;
+		}
+	}
+}

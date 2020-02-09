@@ -1,11 +1,8 @@
-- layout: left
-  name: Hungarian
+- name: Hungarian
   qualification: Native
 
-- layout: left
-  name: English
+- name: English
   qualification: Professional
 
-- layout: left
-  name: Spanish
+- name: Spanish
   qualification: Beginner
