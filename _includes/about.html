@@ -12,21 +12,21 @@
 	</div>
 </div>
 
-<div class="container experience-container">
+<div class="container certification-container">
 	<h3>{{ site.data.certification.title | default: "Certification" }}</h3>
 	{% for certification in site.data.certification %}
 		<div class="row clearfix layout layout-left">
-			<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-				<h4><b>{{ certification.date }}</b></h4>
-				<a href="{{ certification.link }}" target="_blank" style="color: inherit; font-style: italic;font-weight: 300; font-size: 1.5em; padding-bottom: 10px !important;">View certificate</a>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-print-12 name">
+				<h4>{{ certification.name }}</h4>
+				<a href="{{ certification.link }}" target="_blank">View certificate</a>
 			</div>
-			<div class="col-xs-11 col-sm-8 col-md-9 col-print-12" style="text-align: center;">
-				<h4><b>{{ certification.name }}</b></h4>
-				{%- if certification.ID -%}
-					<span style="color: inherit; font-style: italic;font-weight: 300; font-size: 1.5em;">
-						<b>Certification ID:</b> {{ certification.ID }}
-					</span>
-				{%- endif -%}
+			<div class="col-xs-12 col-sm-12 col-md-12 col-print-12 details">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-print-6">
+					<p>Acquired: {{ certification.date }}</p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-print-6">
+					<p>ID: {{ certification.ID }}</p>
+				</div>
 			</div>
 		</div>
 	{% endfor %}

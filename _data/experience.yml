@@ -1,11 +1,15 @@
 - layout: left
   company: Grabyo
   link: about.grabyo.com
-  job_title: DevSecOps Engineer
-  dates: 2018 - Present
+  jobs:
+    - title: DevSecOps Engineer
+      dates: 2018 - Present
+    - title: Junior DevOps Engineer
+      dates: 2017 - 2018
   quote: >
-    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark> <mark>CodeBuild</mark> <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark> <mark>Kanban</mark> <mark>Scrum</mark>
-    <mark>Golang</mark> <mark>Shell</mark>
+    <mark>AWS</mark> <mark>Git</mark> <mark>CircleCI</mark> <mark>Jenkins</mark> <mark>CodeBuild</mark> <mark>CI/CD</mark> <mark>Terraform</mark> <mark>Vault</mark> <mark>Packer</mark> <mark>Docker</mark> <mark>Verdaccio</mark> <mark>Unleash</mark> <mark>Atlantis</mark>  <mark>ECS - Fargate</mark> <mark>Kubernetes</mark> <mark>Networking</mark> <mark>IAM</mark> <mark>Atlassian</mark> <mark>Kanban</mark> <mark>Scrum</mark>
+    <mark>GitHub</mark> <mark>BitBucket</mark>
+    <mark>Golang</mark> <mark>NodeJS</mark> <mark>Shell</mark> <mark>Python</mark>
     <mark>Linux</mark> <mark>Mac</mark>
   description: |
     - Migrated from a self hosted Verdaccio registry to GitHub Packages
@@ -26,17 +30,6 @@
     - Automated licence scanning of dependencies
     - Automated vulnerability checks in dependencies
     - Refactored _[Terraform](https://terraform.io)_ workflows to use modules instead
-
-- layout: left
-  company: Grabyo
-  link: about.grabyo.com
-  job_title: Junior DevOps Engineer
-  dates: 2017 - 2018
-  quote: >
-   <mark>AWS</mark> <mark>Git</mark> <mark>Terraform</mark> <mark>Jenkins</mark> <mark>CI/CD</mark> <mark>Docker</mark> <mark>Atlassian</mark> <mark>Kanban</mark>
-   <mark>NodeJS</mark> <mark>Python</mark>
-   <mark>Linux</mark> <mark>Mac</mark>
-  description: |
     - Automated continuous delivery for Lambdas 
     - Automated continuous delivery for auto-scaling groups using AMIs
     - Written a CLI in NodeJS that unified service packaging and deployment methods across all services regardless of their backend
