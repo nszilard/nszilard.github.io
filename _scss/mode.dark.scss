@@ -14,17 +14,14 @@
 	}
 
 	h1 {
-		font-family: inherit;
 		color: $DARK_Main;
 	}
 
 	h2 {
-		font-family: inherit;
 		color: $DARK_Accent;
 	}
 
 	h3 {
-		font-weight: bold;
 		color: $DARK_Accent;
 	}
 
@@ -35,13 +32,10 @@
 	mark {
 		color: $DARK_Mark;
 		background-color: $DARK_MarkBackground;
-		white-space: nowrap;
 	}
 
 	.header-left {
 		h1 {
-			font-family: inherit;
-
 			.firstName {
 				color: $DARK_Accent;
 			}
@@ -52,7 +46,6 @@
 		}
 
 		h2 {
-			font-family: inherit;
 			color: $DARK_Text;
 		}
 	}
