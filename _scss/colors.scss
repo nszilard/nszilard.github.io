@@ -1,3 +1,6 @@
+//----------------------------------------
+// Dark
+//----------------------------------------
 $DARK_Text: #EBF3F5 !default;
 $DARK_Background: #181C1E !default;
 
@@ -9,6 +12,26 @@ $DARK_Button: $DARK_Main;
 $DARK_Icon: #1A2126 !default;
 
 $DARK_Link: #00adb5 !default;
+$DARK_LinkHover: #0ebec7 !default;
 
 $DARK_Mark: #EBF3F5 !default;
 $DARK_MarkBackground: #393e46 !default;
+
+//----------------------------------------
+// Light
+//----------------------------------------
+$LIGHT_Text: #181C1E !default;
+$LIGHT_Background: #EBF3F5 !default;
+
+$LIGHT_Main: #3c2f2f !default;
+$LIGHT_Accent: #8C001A !default;
+$LIGHT_Secondary: #be9b7b !default;
+
+$LIGHT_Button: $LIGHT_Main;
+$LIGHT_Icon: #EBF3F5 !default;
+
+$LIGHT_Link: #F3C969 !default;
+$LIGHT_LinkHover: #e4ba5a !default;
+
+$LIGHT_Mark: #fff4e6 !default;
+$LIGHT_MarkBackground: #3c2f2f !default;

@@ -1,9 +1,20 @@
+- company: Pensionera
+  link: pensionera.se
+  jobs:
+    - title: Systems Developer/Sysadmin
+      dates: 2020 - Present
+  quote: >
+    <mark>AWS</mark> <mark>CI/CD</mark> <mark>Docker</mark> <mark>Kubernetes</mark>
+    <mark>GitLab</mark>
+    <mark>Golang</mark>
+    <mark>Linux</mark> <mark>Mac</mark>
+
 - layout: left
   company: Grabyo
   link: about.grabyo.com
   jobs:
     - title: DevSecOps Engineer
-      dates: 2018 - Present
+      dates: 2018 - 2020
     - title: Junior DevOps Engineer
       dates: 2017 - 2018
   quote: >
