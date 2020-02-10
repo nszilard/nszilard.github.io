@@ -11,6 +11,10 @@
 
 	a {
 		color: $DARK_Link;
+
+		&:active, &:focus, &:hover {
+			color: $DARK_Link;
+		}
 	}
 
 	h1 {
