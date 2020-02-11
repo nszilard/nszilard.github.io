@@ -1,5 +1,4 @@
-- layout: left
-  company: Grabyo
+- company: Grabyo
   link: about.grabyo.com
   jobs:
     - title: DevSecOps Engineer
@@ -39,8 +38,7 @@
     - Implemented a CI/CD system (Jenkins) from the ground up which resulted in increased stability, predictability and the frequency of deployments
     - Imported all existing infrastructure to Terraform and ensured every IaC is up to date
 
-- layout: left
-  company: High Speed Networks Laboratory
+- company: High Speed Networks Laboratory
   link: hsnlab.gsuite.tmit.bme.hu
   job_title: Student Researcher
   dates: 2015 - 2016
@@ -52,8 +50,7 @@
     - Published a scientific paper in the 2015's Scientific Students’ Associations Conference
     - Received the __Ericsson Hungary 1st Prize__ for the paper _["Integrating Network Coding into SDN networks"](https://tdk.bme.hu/VIK/ViewPaper/Network-Coding-Integracioja-SDN-halozatokba2)_​
 
-- layout: left
-  company: BME-Infokom Innovator
+- company: BME-Infokom Innovator
   job_title: System Test Engineer
   dates: Summer of 2015
   description: |

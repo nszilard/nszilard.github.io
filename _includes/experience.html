@@ -1,6 +1,45 @@
-<div class="container experience-container">
+<div class="container experience-container timeline">
 	<h3>{{ site.experience_title | default: "Experience" }}</h3>
 	{% for experience in site.data.experience %}
-		{% include {{ experience.layout | default: 'left' | append: ".html" }} item=experience %}
+		{% assign mod = forloop.index | modulo: 2 %}
+		{% if mod == 0 %}
+		<!-- even -->
+			<div class="row clearfix layout layout-left timeline-even">
+				<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+					<h4>{{ experience.company }}</h4>
+					{% include a.html href=experience.link class="link" %}{{ experience.link }}</a>
+					<p><b>{{ experience.job_title }}</b></p>
+					{% for job in experience.jobs %}
+						<p><b>{{ job.title }}</b></p>
+						<p>{{ job.dates }}</p>
+					{% endfor %}
+				</div>
+				<div class="col-xs-11 col-sm-8 col-md-9 col-print-12 description">
+					{%- if experience.quote -%}
+					<p class="quote">{{ experience.quote }}</p>
+					{%- endif -%}
+					{{ experience.description | strip | markdownify }}
+				</div>
+			</div>
+		{% else %}
+		<!-- odd -->
+			<div class="row clearfix layout layout-left timeline-odd">
+				<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+					<h4>{{ experience.company }}</h4>
+					{% include a.html href=experience.link class="link" %}{{ experience.link }}</a>
+					<p><b>{{ experience.job_title }}</b></p>
+					{% for job in experience.jobs %}
+						<p><b>{{ job.title }}</b></p>
+						<p>{{ job.dates }}</p>
+					{% endfor %}
+				</div>
+				<div class="col-xs-11 col-sm-8 col-md-9 col-print-12 description">
+					{%- if experience.quote -%}
+						<p class="quote">{{ experience.quote }}</p>
+					{%- endif -%}
+					{{ experience.description | strip | markdownify }}
+				</div>
+			</div>
+		{% endif %}
 	{% endfor %}
 </div>
