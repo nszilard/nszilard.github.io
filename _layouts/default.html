@@ -5,7 +5,14 @@
 		{%- include header.html -%}
 		<main class="page-content" aria-label="Content">
 			<div class="wrapper">
-			{%- include about.html -%}
+
+			{%- if site.data.more.content -%}
+				{%- include about.html -%}
+			{%- endif -%}
+
+			{%- if site.data.certification.size > 0 -%}
+				{%- include certification.html -%}
+			{%- endif -%}
 
 			{%- if site.data.projects.size > 0 -%}
 				{%- include projects.html -%}
@@ -19,7 +26,22 @@
 				{%- include education.html -%}
 			{%- endif -%}
 
-			{%- include more.html -%}
+			{%- if site.data.awards.size > 0 -%}
+				{%- include awards.html -%}
+			{%- endif -%}
+
+			{%- if site.data.languages.size > 0 -%}
+				{%- include languages.html -%}
+			{%- endif -%}
+
+			{%- if site.data.interests.size > 0 -%}
+				{%- include interests.html -%}
+			{%- endif -%}
+
+			{%- if site.data.more.content -%}
+				{%- include more.html -%}
+			{%- endif -%}
+
 			</div>
 		</main>
 		{%- include footer.html -%}

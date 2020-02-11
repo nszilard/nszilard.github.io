@@ -1,0 +1,14 @@
+<div class="container language-container">
+	<h3>{{ site.language_title | default: "Languages" }}</h3>
+	<div class="row clearfix">
+		{% for language in site.data.languages %}
+		<div class="col-xs-4 col-sm-4 col-md-4 col-print-4 details">
+			<h2>{{ language.name }}</h2>
+			<p>{{ language.qualification }}</p>
+			{%- if language.description -%}
+				{{ language.description | strip | markdownify }}
+			{%- endif -%}
+		</div>
+		{% endfor %}
+	</div>
+</div>

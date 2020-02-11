@@ -1,0 +1,13 @@
+<div class="container award-container">
+	<h3>{{ site.awards_title | default: "Awards" }}</h3>
+	<div class="row clearfix">
+		{% for awards in site.data.awards %}
+		<div class="col-xs-12 col-sm-12 col-md-12 col-print-12 details">
+			<h2>{{ awards.name }}</h2>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-print-12 details">
+			<p>{{ awards.date }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>

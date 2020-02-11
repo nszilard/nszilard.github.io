@@ -1,0 +1,19 @@
+<div class="container certification-container">
+	<h3>{{ site.data.certification.title | default: "Certification" }}</h3>
+	{% for certification in site.data.certification %}
+		<div class="row clearfix layout layout-left">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-print-12 name">
+				<h4>{{ certification.name }}</h4>
+				<a href="{{ certification.link }}" target="_blank">View certificate</a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-print-12 details">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-print-6">
+					<p>Acquired: {{ certification.date }}</p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-print-6">
+					<p>ID: {{ certification.ID }}</p>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
