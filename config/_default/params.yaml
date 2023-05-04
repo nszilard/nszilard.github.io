@@ -1,0 +1,18 @@
+logo:
+  main: logo.svg
+  PNG: logo.png
+  favicon: favicon.svg
+author:
+  firstName: Szilárd
+  middleNames: Attila
+  lastName: Nagy
+description: The personal website of Szilárd Nagy.
+social:
+  github: "nszilard"
+  gitlab: "szilard.nagy"
+  linkedin: "nagyszilard94"
+  instagram: "nszilard"
+  facebook: "szilard.nagy.547"
+  twitter: "TheSzilardNagy"
+  stackoverflow: "9228894"
+  email: "nszilard94@gmail.com"

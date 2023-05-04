@@ -1,0 +1,28 @@
+# Section information
+section:
+  name: Interests
+  id: interests
+  weight: 7
+  background: dark
+  showOnNavbar: true
+  template: section/interests
+
+# Content
+content:
+  - type: Sport
+    icon: fas fa-dumbbell
+    items:
+      - Gym / Powerlifting / Strongman
+      - Snowboarding
+      - Formula 1
+      - Muay Thai
+      - Squash (Ex-professional player)
+
+  - type: Leisure
+    icon: fas fa-passport
+    items:
+      - Watching movies
+      - Travelling
+      - Playing games
+      - Listening to music
+      - Playing on the guitar

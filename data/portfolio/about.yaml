@@ -1,0 +1,44 @@
+# Section information
+section:
+  name: About
+  id: about
+  weight: 1
+  background: dark
+  showOnNavbar: true
+  template: section/about
+
+# Content
+headlines:
+  - "Open to work! Get in touch :incoming_envelope:"
+  - "„Senior DevSecOps engineer“"
+  - "„Lead Systems Developer“"
+  - "„AWS Certified SysOps Administrator“"
+  - "„I love to work with infrastructure“"
+  - "„I :heart: open source“"
+
+role: Senior DevSecOps Engineer
+summary: |
+    <p>As a Computer Science Engineer, I have acquired a diverse range of knowledge in computer networks and programming languages.
+    My experience includes collaborating with the Networking Research Team at Budapest University of Technology, where I honed my problem-solving skills,
+    working both independently and in a team tackling novel challenges.
+    Throughout my Master's studies, I expanded my expertise in service delivery, encompassing both traditional and cloud-based networks.<p/>
+
+    <p>My professional journey started at a London-based startup, where I was entrusted with full ownership and responsibility for multiple projects, which allowed me to gain valuable experience and expertise. Building on this foundation, I have since expanded my skillset as a Software Architect and as a Lead Developer in Sweden.</p>
+
+    <p>I am currently seeking new and exciting challenges to further my career.</p>
+
+softSkills:
+- name: Problem Solving
+  percentage: 100
+- name: Leadership
+  percentage: 90
+- name: Collaboration
+  percentage: 95
+- name: Attention to details
+  percentage: 100
+- name: Time management
+  percentage: 92
+- name: Adaptability
+  percentage: 100
+
+resume: "files/Szilard_Nagy.pdf"

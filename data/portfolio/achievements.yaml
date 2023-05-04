@@ -1,0 +1,28 @@
+# Section information
+section:
+  name: Achievements
+  id: achievements
+  weight: 6
+  background: light
+  showOnNavbar: true
+  template: section/achievements
+
+# Content
+achievements:
+- type: Award
+  icon: fas fa-medal
+  name: Ericsson Hungary 1st Prize
+  date: 2015
+  description: Awarded for my paper at the Scientific Students' Associations Conference.
+
+- type: Award
+  name: IEEE Communication Society Special Award
+  date: 2016
+  description: Awarded by HTC for my bachelor dissertation.
+
+- type: Certificate
+  icon: fab fa-aws
+  name: AWS Certified SysOps Administrator - Associate
+  date: November 2019
+  ID:   D38F3CHKMMF1143K
+  link: https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=2KKF7LWKCN1QQ7KP

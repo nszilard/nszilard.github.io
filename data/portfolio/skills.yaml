@@ -1,0 +1,65 @@
+# Section information
+section:
+  name: Skills
+  id: skills
+  weight: 2
+  background: light
+  showOnNavbar: true
+  template: section/skills
+
+# Content
+skills:
+- name: Cloud Computing
+  icon: fas fa-cloud
+  summary: |
+    As a certified AWS SysOps Administrator, I possess extensive experience working with leading cloud providers including AWS, GCP and Azure.
+    My expertise in computer networks is complemented by a keen interest in infrastructure.
+
+- name: Go Development
+  icon: fas fa-code
+  summary: |
+    Proficient in utilizing industry-standard programming languages for professional development, with the ability to develop scalable, testable, and maintainable programs.
+
+- name: Kubernetes
+  icon: fas fa-dharmachakra
+  summary: |
+    Competent in operating Kubernetes clusters on numerous platforms, including Kops, EKS, and GKE.
+    Experienced in configuring and deploying applications on Kubernetes and adept in creating Helm charts.
+
+- name: Docker
+  icon: fab fa-docker
+  summary: |
+    Possessing extensive experience in containerization technologies, including the ability to create, deploy, and maintain Docker containers in diverse environments.
+    Well-versed in multi-stage, multi-arch build processes.
+
+- name: Service monitoring
+  icon: fas fa-search
+  summary: |
+    Demonstrated a high level of expertise in configuring and managing an end-to-end monitoring solution
+    including the ability to write Prometheus recording rules to enhance querying efficiency,
+    create bespoke metrics to monitor application performance, and design effective alerting rules.
+
+- name: Linux
+  icon: fas fa-terminal
+  summary: |
+    Bringing extensive experience in configuring and maintaining Linux servers in cloud-based environments,
+    coupled with a passion for developing shell scripts to automate workflows.
+    Additionally, utilizing Linux as the primary operating system in my personal life.
+
+- name: Git
+  icon: fab fa-git-alt
+  summary: |
+    Demonstrating experience with Git-based development and a variety of development patterns,
+    with a proven track record of working with several Git providers such as GitHub, GitLab, and Bitbucket.
+
+- name: Hashicorp tools
+  icon: fas fa-toolbox
+  summary: |
+    As an engineer, I prioritize creating clean and maintainable infrastructure, and to achieve this, I utilize Terraform as my preferred tool.
+    I am also well-versed in using Packer to build machine images programmatically, and in managing secrets using the industry-standard platform: Vault.
+
+- name: CI/CD
+  icon: fab fa-gg-circle
+  summary: |
+    I have gained valuable experience in configuring and maintaining automation tools by building comprehensive CI/CD systems from the ground up.
+    I am proficient in utilizing a variety of services, including but not limited to Jenkins, CircleCI, Drone, GitLab CI, and GitHub Pipelines.

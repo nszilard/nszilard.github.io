@@ -1,0 +1,13 @@
+type: github
+icon: fa-brands fa-js-square
+
+weight: 4
+user: verdaccio
+repo: monorepo
+name: Verdaccio
+status:
+  - Contributor
+language:
+  - TypeScript
+description: |
+  Contributed to the `aws-s3-storage` plugin in the Verdaccio ecosystem by enabling the use of environment variables for authentication.

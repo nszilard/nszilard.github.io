@@ -1,0 +1,13 @@
+type: github
+icon: fa-brands fa-golang
+
+weight: 6
+user: nszilard
+repo: prometheus-custom-metrics
+name: Prometheus metrics
+status:
+  - Creator
+  - Owner
+language:
+  - Go
+description: This repository demonstrates a potential implementation of custom Prometheus metrics for Go applications.
