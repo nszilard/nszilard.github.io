@@ -1,0 +1,49 @@
+# Section information
+section:
+  name: Education
+  id: education
+  weight: 5
+  background: dark
+  showOnNavbar: true
+  template: section/education
+
+# Content
+degrees:
+  - name: M.Sc. Computer Network Administration and Management
+    icon: fas fa-microscope
+    date:
+      start: 2016
+      finish: 2017
+    institution:
+      name: University of Portsmouth
+      url: "https://www.port.ac.uk/"
+    thesis: Wi-Fi implementation for a hotel with 1500 rooms
+    description: |
+      During my Master's studies, I `graduated with distinction` in every module and achieved overall distinction. The program consisted of the following courses:
+
+        * ICT Configuration and Administration
+        * Client Server Network Architecture
+        * Data Communications and Networking
+        * Unified Communications
+        * Network Design and Management
+        * Communications Security
+
+      These courses provided me with a strong foundation in the field of networking, including the design and management of networks, security protocols, and communication technologies.
+
+  - name: B.Sc. Computer Science Engineering
+    icon: fas fa-graduation-cap
+    date:
+      start: 2012
+      finish: 2016
+    institution:
+      name: Budapest University of Technology
+      url: "https://vik.bme.hu"
+    thesis: Implementation of virtual network functions for SDN networks on top of the Click platform
+    publications:
+      - title: Integrating Network Coding into SDN networks
+        url: "https://tdk.bme.hu/VIK/ViewPaper/Network-Coding-Integracioja-SDN-halozatokba2"
+    description: |
+      __Specialization:__ `Info-communication networks and applications`
+
+      I had the opportunity to explore a wide range of programming languages and technologies each semester. I found myself particularly drawn to the `Computing theory` and `Computer network` modules and excelled in these areas. My passion for computer networks led to me being invited to the `MEDIANETS Computer-Networks Talent Group`. <br/>
+      In addition, I was honoured to receive the `"IEEE Communication Society Special Award"` for my dissertation, which was the culmination of my academic achievements during my Bachelor's degree.

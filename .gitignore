@@ -1,7 +1,10 @@
-_site
+# OS
+.DS_Store
 
-*.gem
-.bundle
-.sass-cache
-Gemfile.lock
-*.code-workspace
+# Node
+node_modules
+
+# Hugo
+resources
+hugo_stats.json
+.hugo_build.lock

@@ -1,0 +1,13 @@
+type: github
+icon: fa-brands fa-golang
+
+weight: 5
+user: nszilard
+repo: aws-lambda-go
+name: AWS Lambda
+status:
+  - Creator
+  - Owner
+language:
+  - Go
+description: This is a simple “hello-world” style Golang application designed for use with AWS Lambda functions.

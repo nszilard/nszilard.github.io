@@ -1,0 +1,26 @@
+# Section information
+section:
+  name: Languages
+  id: languages
+  weight: 4
+  background: light
+  showOnNavbar: true
+  template: section/languages
+
+# Content
+languages:
+  - name: Hungarian
+    weight: 1
+    qualification: Native
+
+  - name: English
+    weight: 2
+    qualification: Professional
+
+  - name: Spanish
+    weight: 3
+    qualification: Beginner
+
+  - name: Swedish
+    weight: 3
+    qualification: Beginner

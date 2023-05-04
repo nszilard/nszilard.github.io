@@ -1,0 +1,15 @@
+type: github
+icon: fa-brands fa-html5
+
+weight: 1
+user: nszilard
+repo: aurora
+name: Aurora
+status:
+  - Creator
+  - Owner
+language:
+  - HTML
+  - SCSS
+  - JavaScript
+description: A fully responsive Hugo theme featuring a minimalist and user-friendly design, with a focus on delivering a seamless user experience across multiple devices.

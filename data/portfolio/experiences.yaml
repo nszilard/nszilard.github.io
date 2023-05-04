@@ -1,0 +1,152 @@
+# Section information
+section:
+  name: Experiences
+  id: experiences
+  weight: 3
+  background: dark
+  showOnNavbar: true
+  template: section/experiences
+
+# Content
+experiences:
+- company: Pensionera
+  link: https://pensionera.se
+  jobs:
+    - title: Senior DevOps Engineer
+      date:
+        start: 2021
+        finish: 2023
+    - title: Lead Systems Developer and Sysadmin
+      date:
+        start: 2020
+        finish: 2021
+    - title: Systems Developer and Sysadmin
+      date:
+        start: 2020
+        finish: 2020
+  languages:
+    - Golang
+    - Shell
+    - Protobuf
+    - VueJS
+    - React
+    - TypeScript
+    - SQL
+    - MQL
+  highlights:
+    - AWS
+    - Git
+    - GitLab
+    - Docker
+    - Kubernetes
+    - CI/CD
+    - Prometheus
+    - Grafana
+    - Loki
+    - Swagger
+    - MariaDB, MongoDB
+    - Scrum
+    - Trello
+  description: |
+    - Successfully migrated an omnibus `Helm` installation of GitLab to the latest cloud-native version, resulting in enhanced scalability and performance.
+    - Refactored all `REST APIs` and created custom middlewares to optimize application performance.
+    - Unified error handling in all microservices, which resulted in improved observability and application maintenance.
+    - Refactored the SQL client implementation using `sqlx`
+    - Led a team of six engineers and served as the Scrum Master for the IT department.
+    - Redesigned parts of the platform to eliminate system inter-dependencies and enhance overall application efficiency.
+    - Created custom `Prometheus` collecting rules and set up alerts in `Alertmanager` to improve the monitoring system's effectiveness.
+    - Implemented a centralized monitoring system using `Grafana` for enhanced visibility and management.
+    - Implemented centralized logging using `Loki` and `Fluentbit`, which resulted in improved log processing and analysis.
+    - Maintained Kubernetes clusters on `AWS` using `Kops`, ensuring optimal cluster performance and security.
+    - Integrated third party systems into the platform (`Go`)
+    - Instrumented `Go` applications with custom `Prometheus` metrics, which enabled improved performance tracking and analysis.
+
+- company: Grabyo
+  link: https://about.grabyo.com
+  jobs:
+    - title: DevSecOps Engineer
+      date:
+        start: 2018
+        finish: 2020
+    - title: Junior DevOps Engineer
+      date:
+        start: 2017
+        finish: 2018
+  languages:
+    - Golang
+    - NodeJS
+    - Shell
+  highlights:
+    - AWS
+    - Git
+    - BitBucket, GitHub
+    - CI/CD
+    - CircleCI
+    - Jenkins, CodeBuild
+    - Terraform
+    - Vault
+    - Packer
+    - Verdaccio
+    - Unleash
+    - Atlantis
+    - ECS Fargate
+    - Networking
+    - IAM
+    - Kanban
+    - Atlassian, Jira
+
+  description: |
+    - Designed the `AWS` network layout and created a Terraform module that unified the way to deploy new `VPCs`.
+    - Successfully migrated a self-hosted `Verdaccio` registry to `GitHub Packages` and Git repositories from `BitBucket` to `GitHub`.
+    - Automated Terraform projects using `Atlantis` and introduced `CircleCI` to the toolchain, leading to increased efficiency and a better user experience and collaboration.
+    - Developed a `CLI` tool (at first in `NodeJS`, then later in `Golang`) to unify service packaging and deployment methods across all services, regardless of their backend,
+    leading to standardized and streamlined deployment processes.
+    - Replaced the need for `SSH keys` by relying on Hashicorp's Vault to generate `OTPs` based on the user's identity which allowed granular access control to instances and increased security.
+    - Designed and implemented a highly available, scalable, and stateless infrastructure for `Unleash` and `Vault`.
+    - Conducted in-depth research on Kubernetes (`EKS`) vs. `ECS Fargate` to lay the groundwork for microservices, and provided an IaC template that can be reused for any project.
+    - Developed custom `AWS Lambda` functions to automate the backup processes for `DynamoDB` tables and the cleanup of `ECR repositories`, resulting in improved disaster recovery capabilities and cost savings.
+    - Implemented a private NPM registry (`Verdaccio`) and automated license scanning and vulnerability checks in dependencies for increased security and compliance.
+    - Refactored `Terraform` workflows to use modules, leading to better maintainability and scalability.
+    - Automated continuous delivery for `Lambdas` and `Auto Scaling Groups`.
+    - Created a custom `Slack` integration for Jenkins that included detailed information from each build, improving communication and transparency.
+    - Implemented a `CI/CD` system (`Jenkins`) from the ground up which resulted in increased stability, predictability and frequency of deployments.
+    - Imported all existing infrastructure to `Terraform`, ensuring that every IaC is up to date and optimized for maintainability.
+
+- company: High Speed Networks Laboratory
+  link: https://www.hsnlab.hu/
+  jobs:
+    - title: Student Researcher
+      date:
+        start: 2015
+        finish: 2016
+  languages:
+    - Click
+    - Shell
+  highlights:
+    - SDN
+    - NFV
+    - Click
+    - Docker
+    - Linux
+    - VM
+    - R&D
+  description: |
+    - Joined the esteemed `HSNLab` team
+    - Conducted rigorous Research & Development on `Network Coding` in `SDN` networks
+    - Contributed to the academic community by publishing a scientific paper at the 2015 Scientific Students' Associations Conference
+    - Received the prestigious Ericsson Hungary 1st Prize for the paper on [<q>Integrating Network Coding into SDN networks</q>](https://tdk.bme.hu/VIK/ViewPaper/Network-Coding-Integracioja-SDN-halozatokba2)
+
+- company: BME-Infokom Innovátor
+  link: http://www.infokom-innovator.hu/
+  jobs:
+    - title: System Test Engineer
+      date:
+        start: 2015
+        finish: 2015
+  languages:
+    - Click
+    - Shell
+  description: |
+    During my summer internship,
+    - I engaged in extensive research on `NFV platforms` and gained hands-on experience in designing and implementing `VNFs`.
+    - I had the opportunity to present my findings on `Random Linear Network Coding` and the functionalities of the Kodo Network Coding Software Library.

@@ -1,0 +1,15 @@
+type: github
+icon: fa-brands fa-golang
+
+weight: 3
+user: nszilard
+repo: slack
+name: Slack CLI
+status:
+  - Creator
+  - Owner
+language:
+  - Go
+description: |
+  A CLI utility for sending Slack messages using pre-defined templates.
+  It can also function as a library for easy integration into other Go applications.
