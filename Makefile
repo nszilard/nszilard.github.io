@@ -22,7 +22,7 @@ dev: clean ## Serves the site locally
 	@hugo server --buildDrafts --minify --gc --bind 0.0.0.0
 
 .PHONY: build
-build: clean node ## Compiles site for production
+build: clean bootstrap ## Compiles site for production
 	@hugo --minify
 
 .PHONY: clean
