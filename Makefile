@@ -21,6 +21,10 @@ debug: clean ## Serves the site locally in debug mode
 dev: clean ## Serves the site locally
 	@hugo server --buildDrafts --minify --gc --bind 0.0.0.0
 
+.PHONY: prod
+prod: clean ## Serves the site locally but using "production" env
+	@hugo server -e "production" --buildDrafts --minify --gc --bind 0.0.0.0
+
 .PHONY: build
 build: clean bootstrap ## Compiles site for production
 	@hugo --minify
