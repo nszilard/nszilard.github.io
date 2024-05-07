@@ -9,6 +9,32 @@ section:
 
 # Content
 experiences:
+- company: Freelance
+  jobs:
+    - title: DevOps Consultant
+      date:
+        start: 2023
+        finish: Current
+  languages:
+    - Golang
+    - Shell
+  highlights:
+    - AWS
+    - ArgoCD
+    - GitLab
+    - Docker
+    - Kubernetes
+    - Hugo
+  description: |
+    - Set up and deployed `ArgoCD` with GitLab OAuth Integration
+    - Created a `Kubernetes RBAC` user and certificate management script to manage user access to a cluster
+    - Upgraded a hosted `GitLab` instance
+    - Simplified `GitLab` user management by creating groups for various roles
+    - Rescued a Kubernetes cluster that was unable to accept any nodes to the cluster
+    - Created an open-source `Hugo` Theme
+    - Drove the documentation efforts for a client's internal processes
+    - Containerized and launched a `NextJS` website into production
+
 - company: Pensionera
   link: https://pensionera.se
   jobs:
