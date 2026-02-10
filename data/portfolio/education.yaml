@@ -16,7 +16,7 @@ degrees:
       finish: 2017
     institution:
       name: University of Portsmouth
-      url: "https://www.port.ac.uk/"
+      url: 'https://www.port.ac.uk/'
     thesis: Wi-Fi implementation for a hotel with 1500 rooms
     description: |
       During my Master's studies, I `graduated with distinction` in every module and achieved overall distinction. The program consisted of the following courses:
@@ -37,11 +37,11 @@ degrees:
       finish: 2016
     institution:
       name: Budapest University of Technology
-      url: "https://vik.bme.hu"
+      url: 'https://vik.bme.hu'
     thesis: Implementation of virtual network functions for SDN networks on top of the Click platform
     publications:
       - title: Integrating Network Coding into SDN networks
-        url: "https://tdk.bme.hu/VIK/ViewPaper/Network-Coding-Integracioja-SDN-halozatokba2"
+        url: 'https://tdk.bme.hu/VIK/ViewPaper/Network-Coding-Integracioja-SDN-halozatokba2'
     description: |
       __Specialization:__ `Info-communication networks and applications`
 

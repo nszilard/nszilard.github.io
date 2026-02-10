@@ -1,6 +1,9 @@
-particles: true
+particles: false
+greeting:
 intro: I'm Szilárd Nagy,
 headlines:
-  - "„Senior DevSecOps Engineer“"
-  - "„Lead Systems Developer“"
-  - "„AWS Certified SysOps Administrator“"
+  - '„Senior Software Engineer“'
+  - '„Data Protection Officer“'
+  - '„Senior DevSecOps Engineer“'
+  - '„Lead Systems Developer“'
+  - '„AWS Certified SysOps Administrator“'

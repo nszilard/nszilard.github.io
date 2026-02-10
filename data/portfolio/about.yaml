@@ -9,36 +9,37 @@ section:
 
 # Content
 headlines:
-  - "Open to work! Get in touch :incoming_envelope:"
-  - "„Senior DevSecOps engineer“"
-  - "„Lead Systems Developer“"
-  - "„AWS Certified SysOps Administrator“"
-  - "„I love to work with infrastructure“"
-  - "„I :heart: open source“"
+  - 'Open to work! Get in touch :incoming_envelope:'
+  - '„Senior Software Engineer“'
+  - '„Data Protection Officer“'
+  - '„Senior DevSecOps engineer“'
+  - '„Lead Systems Developer“'
+  - '„AWS Certified SysOps Administrator“'
+  - '„I love to work with infrastructure“'
+  - '„I :heart: open source“'
 
-role: Senior DevSecOps Engineer
+role: Senior Software Engineer & Data Protection Officer
 summary: |
-    As a Computer Science Engineer, I have acquired a diverse range of knowledge in computer networks and programming languages.
-    My experience includes collaborating with the Networking Research Team at Budapest University of Technology, where I honed my problem-solving skills,
-    working both independently and in a team tackling novel challenges.
-    Throughout my Master's studies, I expanded my expertise in service delivery, encompassing both traditional and cloud-based networks.
+  I am a Senior Software Engineer with a strong background in distributed systems, cloud infrastructure, and security-aware platform development. My foundation in computer networks and systems engineering was shaped through academic research at the Budapest University of Technology and Economics, where I worked on SDN and network coding as part of a research lab.
 
-    My professional journey started at a London-based startup, where I was entrusted with full ownership and responsibility for multiple projects, which allowed me to gain valuable experience and expertise. Building on this foundation, I have since expanded my skillset as a Software Architect and as a Lead Developer in Sweden.
+  I began my professional career at a London-based startup, where I was given end-to-end ownership of critical systems early on. This experience shaped my approach to engineering: pragmatic, responsibility-driven, and focused on building systems that are reliable, observable, and secure.
 
-    I am currently seeking new and exciting challenges to further my career.
+  Since then, I have worked in senior engineering and leadership roles across Sweden, spanning DevOps, platform engineering, and backend development. I have led teams, designed cloud-native architectures, and operated production systems at scale—while also serving as a Data Protection Officer, ensuring GDPR compliance and sound security practices.
+
+  I enjoy working close to infrastructure, enabling developer productivity, and building systems that are both technically sound and easy to operate.
 
 softSkills:
-- name: Problem Solving
-  percentage: 100
-- name: Leadership
-  percentage: 90
-- name: Collaboration
-  percentage: 95
-- name: Attention to details
-  percentage: 100
-- name: Time management
-  percentage: 92
-- name: Adaptability
-  percentage: 100
+  - name: Problem Solving
+    percentage: 100
+  - name: Leadership
+    percentage: 90
+  - name: Collaboration
+    percentage: 95
+  - name: Attention to details
+    percentage: 100
+  - name: Time management
+    percentage: 92
+  - name: Adaptability
+    percentage: 100
 
-resume: "files/Szilard_Nagy.pdf"
+resume: 'files/Szilard_Nagy.pdf'
