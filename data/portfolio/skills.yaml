@@ -9,57 +9,72 @@ section:
 
 # Content
 skills:
-- name: Cloud Computing
-  icon: fas fa-cloud
-  summary: |
-    As a certified AWS SysOps Administrator, I possess extensive experience working with leading cloud providers including AWS, GCP and Azure.
-    My expertise in computer networks is complemented by a keen interest in infrastructure.
+  - name: Cloud & Infrastructure
+    icon: fas fa-cloud
+    summary: |
+      Extensive experience designing, operating, and securing cloud infrastructure primarily on AWS,
+      with additional exposure to GCP and Azure.
+      Strong background in networking, identity and access management, and infrastructure automation,
+      with a focus on reliability, scalability, and cost awareness.
 
-- name: Go Development
-  icon: fas fa-code
-  summary: |
-    Proficient in utilizing industry-standard programming languages for professional development, with the ability to develop scalable, testable, and maintainable programs.
+  - name: Go & Backend Engineering
+    icon: fas fa-code
+    summary: |
+      Long-term experience building production-grade backend systems in Go.
+      Comfortable designing APIs, background workers, and internal tooling with a strong focus on
+      performance, observability, and maintainability.
 
-- name: Kubernetes
-  icon: fas fa-dharmachakra
-  summary: |
-    Competent in operating Kubernetes clusters on numerous platforms, including Kops, EKS, and GKE.
-    Experienced in configuring and deploying applications on Kubernetes and adept in creating Helm charts.
+  - name: Kubernetes & Platform Engineering
+    icon: fas fa-dharmachakra
+    summary: |
+      Several years of hands-on experience operating Kubernetes clusters in production,
+      including Kops-managed clusters and managed services such as EKS and GKE.
+      Experienced in Helm-based application delivery, cluster upgrades, and platform-level troubleshooting.
 
-- name: Docker
-  icon: fab fa-docker
-  summary: |
-    Possessing extensive experience in containerization technologies, including the ability to create, deploy, and maintain Docker containers in diverse environments.
-    Well-versed in multi-stage, multi-arch build processes.
+  - name: Containers & Docker
+    icon: fab fa-docker
+    summary: |
+      Deep experience with container-based workflows, including building, optimizing,
+      and operating Docker images in production environments.
+      Familiar with multi-stage and multi-architecture builds and container security best practices.
 
-- name: Service monitoring
-  icon: fas fa-search
-  summary: |
-    Demonstrated a high level of expertise in configuring and managing an end-to-end monitoring solution
-    including the ability to write Prometheus recording rules to enhance querying efficiency,
-    create bespoke metrics to monitor application performance, and design effective alerting rules.
+  - name: Observability & Monitoring
+    icon: fas fa-search
+    summary: |
+      Strong expertise in building end-to-end observability stacks using Prometheus, Grafana, and related tooling.
+      Experienced in writing recording rules, defining service-level metrics, and designing alerting strategies
+      that balance signal quality and operational noise.
 
-- name: Linux
-  icon: fas fa-terminal
-  summary: |
-    Bringing extensive experience in configuring and maintaining Linux servers in cloud-based environments,
-    coupled with a passion for developing shell scripts to automate workflows.
-    Additionally, utilizing Linux as the primary operating system in my personal life.
+  - name: Linux & Automation
+    icon: fas fa-terminal
+    summary: |
+      Daily user and operator of Linux in both professional and personal environments.
+      Extensive experience maintaining cloud-hosted Linux systems and writing shell scripts
+      to automate operational workflows and reduce manual toil.
 
-- name: Git
-  icon: fab fa-git-alt
-  summary: |
-    Demonstrating experience with Git-based development and a variety of development patterns,
-    with a proven track record of working with several Git providers such as GitHub, GitLab, and Bitbucket.
+  - name: Git & Collaboration
+    icon: fab fa-git-alt
+    summary: |
+      Long-term experience working in Git-based development workflows across GitHub, GitLab, and Bitbucket.
+      Comfortable with trunk-based development, pull request reviews, and repository-level access control.
 
-- name: Hashicorp tools
-  icon: fas fa-toolbox
-  summary: |
-    As an engineer, I prioritize creating clean and maintainable infrastructure, and to achieve this, I utilize Terraform as my preferred tool.
-    I am also well-versed in using Packer to build machine images programmatically, and in managing secrets using the industry-standard platform: Vault.
+  - name: Infrastructure as Code & Secrets Management
+    icon: fas fa-toolbox
+    summary: |
+      Strong advocate of Infrastructure as Code with Terraform as the primary tool.
+      Experienced in structuring reusable modules, managing state, and importing existing infrastructure.
+      Familiar with Packer for image builds and Vault for identity-based secrets management.
 
-- name: CI/CD
-  icon: fab fa-gg-circle
-  summary: |
-    I have gained valuable experience in configuring and maintaining automation tools by building comprehensive CI/CD systems from the ground up.
-    I am proficient in utilizing a variety of services, including but not limited to Jenkins, CircleCI, Drone, GitLab CI, and GitHub Pipelines.
+  - name: CI/CD & Developer Tooling
+    icon: fab fa-gg-circle
+    summary: |
+      Designed, built, and maintained CI/CD systems from scratch as well as at scale.
+      Hands-on experience with Jenkins, CircleCI, Drone, GitLab CI, and GitHub Actions,
+      with a focus on fast feedback loops, reliability, and developer experience.
+
+  - name: Security & Compliance
+    icon: fas fa-shield-alt
+    summary: |
+      Practical experience embedding security into platform and infrastructure design.
+      Served as Data Protection Officer with responsibility for GDPR compliance,
+      access control policies, vulnerability remediation, and secure operational practices.

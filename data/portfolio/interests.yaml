@@ -15,14 +15,14 @@ content:
       - Gym / Powerlifting / Strongman
       - Snowboarding
       - Formula 1
-      - Muay Thai
+      - Muay Thai / MMA
       - Squash (Ex-professional player)
 
   - type: Leisure
     icon: fas fa-passport
     items:
       - Watching movies
-      - Travelling
       - Playing games
+      - Travelling
       - Listening to music
       - Playing on the guitar

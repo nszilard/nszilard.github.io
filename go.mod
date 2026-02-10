@@ -1,5 +1,5 @@
 module github.com/nszilard/nszilard.github.io
 
-go 1.20
+go 1.25
 
-require github.com/nszilard/aurora v0.5.1
+require github.com/nszilard/aurora v0.6.1
