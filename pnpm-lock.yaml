@@ -16,7 +16,7 @@ importers:
         version: 11.0.1(postcss@8.5.6)
       serve:
         specifier: ^14.2.5
-        version: 14.2.5
+        version: 14.2.5(supports-color@7.2.0)
 
 packages:
 
@@ -438,8 +438,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  postcss-selector-parser@6.1.2:
-    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
+  postcss-selector-parser@6.1.4:
+    resolution: {integrity: sha512-bIoJLOmjCO1S9XdY/DcnR5hJxvrDir1PbGChrzXG3vw0/FOliy/fA3dmdhQ441kah4gKv+TwckGzex6wNS5cnQ==}
     engines: {node: '>=4'}
 
   postcss@8.5.6:
@@ -742,11 +742,11 @@ snapshots:
     dependencies:
       mime-db: 1.54.0
 
-  compression@1.8.1:
+  compression@1.8.1(supports-color@7.2.0):
     dependencies:
       bytes: 3.1.2
       compressible: 2.0.18
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       negotiator: 0.6.4
       on-headers: 1.1.0
       safe-buffer: 5.2.1
@@ -766,9 +766,11 @@ snapshots:
 
   cssesc@3.0.0: {}
 
-  debug@2.6.9:
+  debug@2.6.9(supports-color@7.2.0):
     dependencies:
       ms: 2.0.0
+    optionalDependencies:
+      supports-color: 7.2.0
 
   deep-extend@0.6.0: {}
 
@@ -979,7 +981,7 @@ snapshots:
       postcss: 8.5.6
       thenby: 1.3.4
 
-  postcss-selector-parser@6.1.2:
+  postcss-selector-parser@6.1.4:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
@@ -999,7 +1001,7 @@ snapshots:
       commander: 12.1.0
       glob: 11.1.0
       postcss: 8.5.6
-      postcss-selector-parser: 6.1.2
+      postcss-selector-parser: 6.1.4
 
   range-parser@1.2.0: {}
 
@@ -1043,7 +1045,7 @@ snapshots:
       path-to-regexp: 3.3.0
       range-parser: 1.2.0
 
-  serve@14.2.5:
+  serve@14.2.5(supports-color@7.2.0):
     dependencies:
       '@zeit/schemas': 2.36.0
       ajv: 8.12.0
@@ -1052,7 +1054,7 @@ snapshots:
       chalk: 5.0.1
       chalk-template: 0.4.0
       clipboardy: 3.0.0
-      compression: 1.8.1
+      compression: 1.8.1(supports-color@7.2.0)
       is-port-reachable: 4.0.0
       serve-handler: 6.1.6
       update-check: 1.5.4
